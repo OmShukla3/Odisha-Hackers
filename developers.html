@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developers</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(45deg, #1e90ff, #ff1493, #32cd32, #ff4500);
+      background-size: 400% 400%;
+      animation: gradientBG 6s ease infinite;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      color: white;
+    }
+
+    .card {
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+      width: 80%;
+      max-width: 600px;
+    }
+
+    .card h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      background: linear-gradient(to right, #ffdd00, #ff7b00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textGlow 3s infinite;
+    }
+
+    .card h2 {
+      font-size: 2rem;
+      margin: 10px 0;
+      background: linear-gradient(to right, #7fff00, #00ff7f);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textGlow 3s infinite alternate;
+    }
+
+    .card p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+      color: #ddd;
+    }
+
+    @keyframes textGlow {
+      0%, 100% { text-shadow: 0 0 5px #fff, 0 0 10px #ff4500; }
+      50% { text-shadow: 0 0 20px #32cd32, 0 0 30px #ffdd00; }
+    }
+
+    .logo {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+
+    .name {
+      display: inline-flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #ffdd00;
+    }
+
+    .button-container {
+      margin-top: 20px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background-color: #ff4500;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #ff7b00;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Developers</h1>
+
+      <!-- Om Shukla -->
+      <div class="name">
+        <img src="/logo.jpg" alt="" class="logo">
+        <a href="https://t.me/odisha_hacker1" target="_blank"><h2>Odisha Hacker</h2></a>
+      </div>
+      <p>Odisha Hacker is a passionate developer with expertise in web and software development. He believes in creating innovative solutions.</p>
+      <div class="button-container">
+        <a href="https://t.me/odisha_hacker1">
+          <button class="btn">Contact Odisha Hacker❤‍🔥</button>
+        </a>
+      </div>
+
+      <hr style="border: 1px solid #ddd; margin: 30px 0;">
+
+      <!-- Om Shukla -->
+      <div class="name">
+        <img src="/IMG_20250120_143749_672.jpg" alt="" class="logo">
+        <a href="https://t.me/om_shukla_12" target="_blank"><h2>Om Shukla</h2></a>
+      </div>
+      <p>Om Shukla specializes in security and ethical hacking, contributing to making the digital world a safer place.</p>
+      <div class="button-container">
+        <a href="https://t.me/om_shukla_12">
+          <button class="btn">Contact Om Shukla💝</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
